@@ -1,0 +1,25 @@
+{
+  "name": "wetalk",
+  "version": "1.0.0",
+  "description": "This is chat messenger application built in mern stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayurcodes/WeTalk-app-mern.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayurcodes/WeTalk-app-mern/issues"
+  },
+  "homepage": "https://github.com/mayurcodes/WeTalk-app-mern#readme",
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
