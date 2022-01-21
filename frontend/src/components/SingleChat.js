@@ -19,7 +19,7 @@ import animationData from "../animations/typing.json";
 import io from "socket.io-client";
 import UpdateGroupChatModal from "./miscellaneous/UpdateGroupChatModal";
 import { ChatState } from "../context/ChatProvider";
-const ENDPOINT = "http://localhost:4000"; // site name after deployment
+const ENDPOINT = "https://wetalk-mern.herokuapp.com/"; // site name after deployment
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
