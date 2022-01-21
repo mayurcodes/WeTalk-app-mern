@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import HomeScreen from "./Screen/HomeScreen";
-import ChatScreen from "./Screen/ChatScreen";
+import HomeScreen from "./screen/HomeScreen";
+import ChatScreen from "./screen/ChatScreen";
 
 function App() {
   return (
