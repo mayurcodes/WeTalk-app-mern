@@ -3,7 +3,8 @@
 .App {
   min-height: 100vh;
   display: flex;
-  background-color: aquamarine;
+  background-image: url("./assets/blue-background.jpg");
+  background-size: cover;
   color: black;
 }
 
